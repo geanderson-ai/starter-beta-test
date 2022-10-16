@@ -1,5 +1,5 @@
 {
-  "name": "integration-example-nextjs-github-actions",
+  "name": "integration-example-github-actions-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
