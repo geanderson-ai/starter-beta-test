@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node -r dotenv-vault-core/config ./node_modules/.bin/next dev",
-    "build": "node -r dotenv-vault-core/config ./node_modules/.bin/next build",
-    "start": "node -r dotenv-vault-core/config ./node_modules/.bin/next start",
-    "lint": "node -r dotenv-vault-core/config ./node_modules/.bin/next lint"
+    "dev": "node  ./node_modules/.bin/next dev",
+    "build": "node ./node_modules/.bin/next build",
+    "start": "node ./node_modules/.bin/next start",
+    "lint": "node ./node_modules/.bin/next lint"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "dotenv-vault-core": "^0.6.0",
     "next": "12.3.1",
     "react": "18.2.0",
