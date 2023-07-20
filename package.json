@@ -7,7 +7,7 @@
     "build": "node ./node_modules/.bin/next build",
     "start": "node ./node_modules/.bin/next start",
     "lint": "node ./node_modules/.bin/next lint",
-    "test": "node node_modules/mocha/bin/mocha.js"
+    "test": "node ./node_modules/mocha/bin/mocha.js"
 
   },
   "dependencies": {
