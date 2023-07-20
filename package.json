@@ -6,7 +6,9 @@
     "dev": "node  ./node_modules/.bin/next dev",
     "build": "node ./node_modules/.bin/next build",
     "start": "node ./node_modules/.bin/next start",
-    "lint": "node ./node_modules/.bin/next lint"
+    "lint": "node ./node_modules/.bin/next lint",
+    "test": "node node_modules/mocha/bin/mocha.js"
+
   },
   "dependencies": {
     "dotenv": "^16.3.1",
